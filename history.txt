@@ -1,0 +1,12 @@
+    1  cd /f/qipan
+    2  git init
+    3  git remote add origin https://github.com/Alien016/qipan.git
+    4  git pull origin master
+    5  git push origin master
+    6  git add -A
+    7  git commit
+    8  git config user.email "582413929@qq.com"
+    9  git config user.name "lilu"
+   10  git commit
+   11  git push origin master
+   12  history >>history.txt
